@@ -64,3 +64,39 @@
 - **Package:** `qa_scenarios.utilities`
 - **Class:** `Config`
 ---
+
+## Day 3 – Strings & Inheritance
+
+### Q1. Reverse Each Word in a Sentence
+- **Problem:** Reverse each word in a sentence without changing word order.
+- **Package:** `corejava.strings`
+- **Class:** `ReverseWordsInSentence`
+
+---
+
+### Q2. Check Two Strings Are Anagrams
+- **Problem:** Check whether two strings are anagrams of each other.
+- **Package:** `corejava.strings`
+- **Class:** `AnagramCheck`
+
+---
+
+### Q3. Method Overriding Example
+- **Problem:** Demonstrate method overriding using parent and child classes.
+- **Package:** `oops.inheritance`
+- **Class:** `LoginTest` (parent), `AdminLoginTest` (child)
+
+---
+
+### Q4. Use of super Keyword
+- **Problem:** Demonstrate use of super keyword in inheritance.
+- **Package:** `oops.inheritance`
+- **Class:** `BaseClass`, `ChildClass`
+
+---
+
+### Q5. QA Scenario – Base Test Class
+- **Problem:** Create a base test class and reuse setup logic in child test class.
+- **Package:** `qa_scenarios.framework`
+- **Class:** `BaseTest`, `LoginTest`
+
