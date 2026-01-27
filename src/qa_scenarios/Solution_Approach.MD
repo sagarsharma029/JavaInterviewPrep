@@ -38,7 +38,40 @@ Create an immutable configuration class containing:
 - Configuration values must remain constant during test execution.
 - Prevents accidental changes that can cause unstable or flaky tests.
 - Commonly used pattern in automation frameworks for managing environment and browser settings.
+
 ### Concepts Used
 - Immutability
 - Encapsulation
 - Constructors
+---
+## Day 3 – Q5: Base Test Class using Inheritance
+
+### Problem
+Create a base test class that contains common setup logic and allow child test classes to reuse this logic.
+
+---
+
+### Approach
+- Created a `BaseTest` class to hold common setup functionality.
+- Marked the setup method as `protected` so it can be accessed by child classes.
+- Created a child class that extends `BaseTest`.
+- Reused the setup method in the child class instead of duplicating code.
+- Triggered the execution from the child class using a `main` method.
+
+---
+
+### QA Automation Relevance
+- Base test classes are commonly used in automation frameworks to manage:
+    - Test initialization
+    - User setup
+    - Environment configuration
+- Inheritance helps avoid code duplication across multiple test classes.
+- This design improves maintainability and scalability of the test framework.
+
+---
+
+### Concepts Used
+- Inheritance
+- Access modifiers (`protected`)
+- Method reuse
+- Framework design principles
