@@ -96,3 +96,33 @@ Design a flexible payment system using an interface so that different payment me
 - Abstraction
 - Polymorphism
 - Loose coupling
+
+---
+
+## Day 5 – Q5: Test Data using Map
+
+### Problem
+Store and retrieve login test data such as username and password using a Map.
+
+---
+
+### Approach
+- Created a HashMap to store login test data as key-value pairs.
+- Used keys such as "username" and "password" to represent test data fields.
+- Retrieved values using the `get()` method.
+- Iterated through the Map using `entrySet()` to display stored test data.
+
+---
+
+### QA Automation Relevance
+- Map-based test data storage allows centralized and flexible access to credentials.
+- This approach avoids hardcoding values across multiple test cases.
+- Commonly used in automation frameworks for handling login credentials and environment data.
+
+---
+
+### Concepts Used
+- Map (HashMap)
+- Key-value pairs
+- Data retrieval
+- Test data management

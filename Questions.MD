@@ -72,31 +72,80 @@
 - **Package:** `corejava.strings`
 - **Class:** `ReverseWordsInSentence`
 
----
-
 ### Q2. Check Two Strings Are Anagrams
 - **Problem:** Check whether two strings are anagrams of each other.
 - **Package:** `corejava.strings`
 - **Class:** `AnagramCheck`
-
----
 
 ### Q3. Method Overriding Example
 - **Problem:** Demonstrate method overriding using parent and child classes.
 - **Package:** `oops.inheritance`
 - **Class:** `LoginTest` (parent), `AdminLoginTest` (child)
 
----
-
 ### Q4. Use of super Keyword
 - **Problem:** Demonstrate use of super keyword in inheritance.
 - **Package:** `oops.inheritance`
 - **Class:** `BaseClass`, `ChildClass`
-
----
 
 ### Q5. QA Scenario – Base Test Class
 - **Problem:** Create a base test class and reuse setup logic in child test class.
 - **Package:** `qa_scenarios.framework`
 - **Class:** `BaseTest`, `LoginTest`
 
+---
+
+## Day 4 – Polymorphism & Abstraction
+
+### Q1. First Non-Repeated Character in a String
+- **Problem:** Find the first non-repeated character in a given string.
+- **Package:** `corejava.strings`
+- **Class:** `FirstNonRepeatedCharacter`
+
+### Q2. Second Largest Number in an Array
+- **Problem:** Find the second largest number in an integer array.
+- **Package:** `corejava.arrays`
+- **Class:** `SecondLargestNumber`
+
+### Q3. Method Overloading Example
+- **Problem:** Demonstrate method overloading using same method name with different parameters.
+- **Package:** `oops.polymorphism`
+- **Class:** `Calculator`
+
+### Q4. Abstraction using Abstract Class
+- **Problem:** Demonstrate abstraction using abstract class and child implementations.
+- **Package:** `oops.abstraction`
+- **Class:** `Browser`, `ChromeBrowser`, `FirefoxBrowser`
+
+### Q5. QA Scenario – Payment Method Interface
+- **Problem:** Demonstrate interface-based design for different payment methods.
+- **Package:** `qa_scenarios.framework`
+- **Class:** `PaymentMethod`, `CreditCardPayment`, `UPIPayment`
+
+---
+
+## Day 5 – Collections & Exceptions
+
+### Q1. Remove Duplicates from a List
+- **Problem:** Remove duplicate elements from a list of integers.
+- **Package:** `collections.list`
+- **Class:** `RemoveDuplicatesFromList`
+
+### Q2. Count Character Frequency using Map
+- **Problem:** Count frequency of each character in a string using Map.
+- **Package:** `collections.map`
+- **Class:** `CharacterFrequencyMap`
+
+### Q3. Sort Employees by Salary
+- **Problem:** Sort a list of employees by salary using Comparator.
+- **Package:** `collections.list`
+- **Class:** `EmployeeSortBySalary`
+
+### Q4. Custom Exception
+- **Problem:** Create and throw a custom exception if age is less than 18.
+- **Package:** `exceptions`
+- **Class:** `InvalidAgeExceptionDemo`
+
+### Q5. QA Scenario – Test Data using Map
+- **Problem:** Store and retrieve login test data using Map.
+- **Package:** `qa_scenarios.utilities`
+- **Class:** `LoginTestDataMap`
