@@ -104,25 +104,44 @@ Design a flexible payment system using an interface so that different payment me
 ### Problem
 Store and retrieve login test data such as username and password using a Map.
 
----
-
 ### Approach
 - Created a HashMap to store login test data as key-value pairs.
 - Used keys such as "username" and "password" to represent test data fields.
 - Retrieved values using the `get()` method.
 - Iterated through the Map using `entrySet()` to display stored test data.
 
----
-
 ### QA Automation Relevance
 - Map-based test data storage allows centralized and flexible access to credentials.
 - This approach avoids hardcoding values across multiple test cases.
 - Commonly used in automation frameworks for handling login credentials and environment data.
-
----
 
 ### Concepts Used
 - Map (HashMap)
 - Key-value pairs
 - Data retrieval
 - Test data management
+---
+
+## Day 6 – Q5: Browser Factory using Map
+
+### Problem
+Create a browser factory that returns different browser implementations based on an input string.
+
+### Approach
+- Defined a common `Browser` interface with an `open()` method.
+- Implemented the interface using concrete classes for different browsers.
+- Used a Map to store browser name as key and browser implementation as value.
+- Created a factory method to return the required browser object from the Map based on input.
+- Demonstrated runtime polymorphism by invoking browser methods using the interface reference.
+
+### QA Automation Relevance
+- This pattern is similar to WebDriver factory design used in automation frameworks.
+- Allows easy addition of new browsers without modifying existing test logic.
+- Improves maintainability and scalability of the framework.
+
+### Concepts Used
+- Interface
+- Map (HashMap)
+- Factory design pattern
+- Polymorphism
+- Loose coupling

@@ -120,7 +120,6 @@
 - **Problem:** Demonstrate interface-based design for different payment methods.
 - **Package:** `qa_scenarios.framework`
 - **Class:** `PaymentMethod`, `CreditCardPayment`, `UPIPayment`
-
 ---
 
 ## Day 5 – Collections & Exceptions
@@ -149,3 +148,31 @@
 - **Problem:** Store and retrieve login test data using Map.
 - **Package:** `qa_scenarios.utilities`
 - **Class:** `LoginTestDataMap`
+---
+
+## Day 6 – Comparable, Sets & Exceptions
+
+### Q1. Sort Employees using Comparable
+- **Problem:** Sort Employee objects by name using Comparable.
+- **Package:** `collections.list`
+- **Class:** `EmployeeComparableSort`
+
+### Q2. Find Duplicate Elements using Set
+- **Problem:** Find duplicate elements in an array using Set.
+- **Package:** `collections.set`
+- **Class:** `FindDuplicatesUsingSet`
+
+### Q3. HashMap vs TreeMap Demo
+- **Problem:** Demonstrate difference between HashMap and TreeMap using code.
+- **Package:** `collections.map`
+- **Class:** `MapOrderingDemo`
+
+### Q4. Multiple Catch Blocks
+- **Problem:** Demonstrate multiple catch blocks with different exceptions.
+- **Package:** `exceptions`
+- **Class:** `MultipleCatchDemo`
+
+### Q5. QA Scenario – Browser Factory using Map
+- **Problem:** Implement a browser factory using Map to return different browser drivers.
+- **Package:** `qa_scenarios.framework`
+- **Class:** `BrowserFactory`
