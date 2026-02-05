@@ -145,3 +145,28 @@ Create a browser factory that returns different browser implementations based on
 - Factory design pattern
 - Polymorphism
 - Loose coupling
+---
+
+## Day 7 – Q5: Retry Mechanism using Exception Handling
+
+### Problem
+Implement a retry mechanism that retries an operation when an exception occurs, with a maximum retry limit.
+
+### Approach
+- Implemented a retry loop with a counter to limit retry attempts.
+- Wrapped the operation inside a try-catch block.
+- Retried the operation when an exception was caught.
+- Stopped retrying once the operation succeeded or the maximum retry count was reached.
+
+### QA Automation Relevance
+- Retry mechanisms are commonly used to handle flaky tests caused by:
+    - Network instability
+    - Temporary application issues
+    - Intermittent login or API failures
+- Helps improve test reliability without hiding real failures.
+
+### Concepts Used
+- Exception handling
+- Loop control
+- Retry logic
+- Framework reliability patterns
