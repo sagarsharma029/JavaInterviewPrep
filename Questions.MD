@@ -176,3 +176,31 @@
 - **Problem:** Implement a browser factory using Map to return different browser drivers.
 - **Package:** `qa_scenarios.framework`
 - **Class:** `BrowserFactory`
+---
+
+## Day 7 – 
+
+### Q1. Check String Rotation
+- **Problem:** `Check if one string is a rotation of another.`
+- **Package:** `corejava.strings`
+- **Class:** `CheckStringRotation`
+
+### Q2. Find Missing Number (1 to N)
+- **Problem:** `Given an array of size n-1 containing numbers from 1 to n, find the missing number.`
+- **Package:** `corejava.arrays`
+- **Class:** `FindMissingNumber`
+
+### Q3. Convert List of Strings to Uppercase Using Streams
+- **Problem:** `Convert a list of strings to uppercase using Java 8 streams.`
+- **Package:** `collections.map`
+- **Class:** `ConvertToUpperCase`
+
+### Q4. Find All Pairs with Given Sum
+- **Problem:** `Given an array and a target sum, find all pairs whose sum equals target.`
+- **Package:** `collections.set`
+- **Class:** `FindSumPairs`
+
+### Q5. Flatten Nested List
+- **Problem:** `Convert List<List<Integer>> into a single flattened list.`
+- **Package:** `collections.list`
+- **Class:** `FlattenList`
